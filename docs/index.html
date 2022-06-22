@@ -1,0 +1,40 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" /> -->
+  <!-- <link rel="stylesheet" type="text/css" href="dark.css" /> -->
+  <link rel="stylesheet" href="https://unpkg.com/docsify-themeable/dist/css/theme-simple.css" />
+  <link rel="stylesheet" href="https://unpkg.com/prism-theme-one-dark/prism-onedark.css">
+</head>
+<body>
+  <div id="app">We can rebuild him. We have the technology. Better. Faster. Stronger.</div>
+  <script>
+    // 4. Docsify Configuration
+    window.$docsify = {
+      name: "Pendo Product Style Guide",
+      repo: "https://github.com/pendo-io/product-style-guide",
+      // coverpage: "coverpage.md",
+      homepage: "overview.md",
+      loadSidebar: "sidebar.md",
+      auto2top: true,
+      maxLevel: 3,
+      subMaxLevel: 3,
+
+      // 5. docsify-themeable
+      themeable: {
+        // readyTransition : false,
+        // responsiveTables: false
+      }
+    };
+  </script>
+  <script src="https://unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="https://unpkg.com/docsify-themeable"></script>
+</body>
+</html>
